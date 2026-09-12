@@ -107,7 +107,7 @@ for pname, data in ma.pools.items():
     axes[0].set_ylabel('标准误 SE')
     fig.suptitle(f'{pname}：AI/VR亚组漏斗图（分开评估，排除亚组混淆）', fontsize=12)
     plt.tight_layout()
-    fig.savefig(OUT/f'亚组漏斗图_{pname}.png', bbox_inches='tight', dpi=150)
+    fig.savefig(OUT/f'亚组漏斗图_{pname}.png', bbox_inches='tight', dpi=300)
     plt.close(fig)
 
 report.append('\n说明：单一二分类调节变量的Meta回归与Qb亚组检验数学等价，两者p值互为印证；')
