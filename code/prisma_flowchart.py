@@ -108,5 +108,5 @@ elbow_to_excl(RX0, 3.9, MX1)       # 右支路全文排除
 varrow(LC, 5.7, 2.1)
 varrow(RC, 5.7, 2.1)
 
-fig.savefig(OUT, dpi=200, bbox_inches="tight")
+fig.savefig(OUT, dpi=300, bbox_inches="tight")
 print("saved:", OUT)
